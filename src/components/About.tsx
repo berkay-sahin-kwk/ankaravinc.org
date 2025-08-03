@@ -10,9 +10,12 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               BİZ <span className="text-primary">KİMİZ</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
               Karadeniz ve Ankara bölgesinde güvenilir hiyap kırma vinç hizmetleri sunuyoruz
             </p>
+            <div className="text-lg font-semibold text-primary">
+              "15 yıldır güvenle yükseklerde"
+            </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">

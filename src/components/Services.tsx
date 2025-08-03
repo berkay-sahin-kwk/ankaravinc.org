@@ -43,9 +43,12 @@ const Services = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               HİZMETLERİMİZ
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
               Profesyonel ekibimiz ve modern ekipmanlarımızla kapsamlı hiyap kırma vinç hizmetleri
             </p>
+            <div className="text-lg font-semibold text-primary">
+              "Her işin başında güvenlik, sonunda başarı"
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">

@@ -18,21 +18,24 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
-            EN İYİ VE EN GÜVENLİ
-            <span className="block text-crane-yellow">HİYAP KIRMA VİNÇ HİZMETİ</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in-up">
+            GÜVENİN ADRESİ
+            <span className="block text-crane-yellow">KARADENIZ VİNÇ</span>
+            <span className="block text-lg md:text-2xl lg:text-3xl font-normal text-white/90 mt-4">
+              "Yükseklik bizim işimiz, güvenlik bizim önceliğimiz"
+            </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+          <p className="text-lg md:text-xl lg:text-2xl mb-8 text-white/90 animate-fade-in-up" style={{animationDelay: '0.2s'}}>
             Karadeniz ve Ankara bölgesinde profesyonel, hızlı ve güvenli 
             <br className="hidden md:block" />
             hiyap kırma vinç hizmetleri
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Button variant="hero" size="xl" className="gap-3">
               <Phone className="w-5 h-5" />
-              Hemen Ara: 0533 137 30 14
+              <span className="hidden sm:inline">Hemen Ara: </span>0533 137 30 14
             </Button>
             <Button variant="outline" size="xl" className="bg-white/10 border-white text-white hover:bg-white hover:text-crane-dark">
               Hizmetlerimizi İncele
@@ -40,40 +43,32 @@ const Hero = () => {
           </div>
 
           {/* Features grid */}
-          <div className="grid md:grid-cols-4 gap-6 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
-              <CheckCircle className="w-8 h-8 text-crane-yellow mx-auto mb-3" />
-              <h3 className="font-semibold mb-2">Sertifikalı Ekip</h3>
-              <p className="text-sm text-white/80">Uzman ve deneyimli operatörler</p>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 lg:p-6 text-center">
+              <CheckCircle className="w-6 h-6 lg:w-8 lg:h-8 text-crane-yellow mx-auto mb-2 lg:mb-3" />
+              <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">Sertifikalı Ekip</h3>
+              <p className="text-xs lg:text-sm text-white/80">Uzman operatörler</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
-              <Clock className="w-8 h-8 text-crane-yellow mx-auto mb-3" />
-              <h3 className="font-semibold mb-2">24/7 Hizmet</h3>
-              <p className="text-sm text-white/80">Hafta içi ve hafta sonu</p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 lg:p-6 text-center">
+              <Clock className="w-6 h-6 lg:w-8 lg:h-8 text-crane-yellow mx-auto mb-2 lg:mb-3" />
+              <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">24/7 Hizmet</h3>
+              <p className="text-xs lg:text-sm text-white/80">Hafta içi ve sonu</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
-              <Shield className="w-8 h-8 text-crane-yellow mx-auto mb-3" />
-              <h3 className="font-semibold mb-2">Güvenli İşlem</h3>
-              <p className="text-sm text-white/80">Tam sigorta kapsamı</p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 lg:p-6 text-center">
+              <Shield className="w-6 h-6 lg:w-8 lg:h-8 text-crane-yellow mx-auto mb-2 lg:mb-3" />
+              <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">Güvenli İşlem</h3>
+              <p className="text-xs lg:text-sm text-white/80">Tam sigorta</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
-              <Truck className="w-8 h-8 text-crane-yellow mx-auto mb-3" />
-              <h3 className="font-semibold mb-2">Modern Ekipman</h3>
-              <p className="text-sm text-white/80">Son teknoloji vinç araçları</p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 lg:p-6 text-center">
+              <Truck className="w-6 h-6 lg:w-8 lg:h-8 text-crane-yellow mx-auto mb-2 lg:mb-3" />
+              <h3 className="font-semibold mb-1 lg:mb-2 text-sm lg:text-base">Modern Ekipman</h3>
+              <p className="text-xs lg:text-sm text-white/80">Son teknoloji</p>
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Floating contact button */}
-      <div className="fixed bottom-6 right-6 z-50">
-        <Button variant="contact" size="lg" className="rounded-full shadow-2xl animate-pulse-slow">
-          <Phone className="w-5 h-5" />
-          <span className="hidden sm:inline">Ara</span>
-        </Button>
       </div>
     </section>
   );
