@@ -11,7 +11,7 @@ const About = () => {
               BİZ <span className="text-primary">KİMİZ</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
-              Karadeniz ve Ankara bölgesinde güvenilir hiyap kırma vinç hizmetleri sunuyoruz
+              Ankara ve çevre illerde güvenilir hiyap kırma vinç hizmetleri sunuyoruz
             </p>
             <div className="text-lg font-semibold text-primary">
               "15 yıldır güvenle yükseklerde"

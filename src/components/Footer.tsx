@@ -49,6 +49,25 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Service Areas */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4 text-crane-yellow">Hizmet Bölgelerimiz</h4>
+            <div className="grid grid-cols-2 gap-1 text-sm text-white/80">
+              <div>Altındağ • Çankaya</div>
+              <div>Keçiören • Yenimahalle</div>
+              <div>Mamak • Sincan</div>
+              <div>Etimesgut • Gölbaşı</div>
+              <div>Polatlı • Beypazarı</div>
+              <div>Çubuk • Kızılcahamam</div>
+              <div>Şereflikoçhisar • Haymana</div>
+              <div>Kalecik • Güdül</div>
+              <div>Evren • Çamlıdere</div>
+              <div>Pursaklar • Akyurt</div>
+              <div>Elmadağ • Nallıhan</div>
+              <div>Bala • Ayaş</div>
+            </div>
+          </div>
+
           {/* Services */}
           <div>
             <h4 className="text-lg font-semibold mb-4 text-crane-yellow">Hizmetlerimiz</h4>

@@ -27,7 +27,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl mb-8 text-white/90 animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            Karadeniz ve Ankara bölgesinde profesyonel, hızlı ve güvenli 
+            Ankara ve çevre illerde profesyonel, hızlı ve güvenli 
             <br className="hidden md:block" />
             hiyap kırma vinç hizmetleri
           </p>

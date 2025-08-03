@@ -7,16 +7,16 @@ const Header = () => {
       {/* Top contact bar */}
       <div className="bg-crane-dark text-white py-2 px-4">
         <div className="container mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <Phone className="w-4 h-4" />
-              <span>Berkan Şahin: 0533 137 30 14</span>
+            <div className="flex items-center gap-6">
+              <div className="flex items-center gap-2">
+                <Phone className="w-4 h-4" />
+                <span>Berkan Şahin: 0533 137 30 14</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin className="w-4 h-4" />
+                <span>Ankara ve Çevresi</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4" />
-              <span>Karadeniz / Ankara Bölgesi</span>
-            </div>
-          </div>
           <div className="text-xs">
             <span className="text-crane-yellow">24/7</span> Hizmet
           </div>
